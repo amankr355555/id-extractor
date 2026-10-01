@@ -1,0 +1,12 @@
+{
+  "name": "wizcat-v2",
+  "private": true,
+  "workspaces": [
+    "wizcat-frontend"
+  ],
+  "scripts": {
+    "dev": "npm --workspace wizcat-frontend run dev",
+    "build": "npm --workspace wizcat-frontend run build",
+    "preview": "npm --workspace wizcat-frontend run preview"
+  }
+}
